@@ -65,7 +65,7 @@ declare namespace mapboxgl {
 
 		getFilter(layer: string): any[];
 
-		setPaintProperty(layer: string, name: string, value: any, klass?: string): this;
+		setPaintProperty(layer: string, name: string, value: any, klass?: string, options?: mapboxgl.StyleOptions): this;
 
 		getPaintProperty(layer: string, name: string, klass?: string): any;
 
