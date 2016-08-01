@@ -628,7 +628,7 @@ declare namespace mapboxgl {
 	 * StyleOptions
 	 */
 	export interface StyleOptions {
-		options?: any;
+		transition?: boolean;
 	}
 
 	/**
